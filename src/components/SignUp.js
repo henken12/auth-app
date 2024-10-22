@@ -56,7 +56,7 @@ function SignUp() {
   return (
     <div className="container d-flex align-items-center justify-content-center min-vh-100">
       <div className="col-md-4">
-        <h2 className="text-center mb-4 h3">Sign Up</h2>
+        <h2 className="text-center mb-4 h3">123</h2>
         <form onSubmit={handleSubmit(onSubmit)}>
 
           {/* Name */}
