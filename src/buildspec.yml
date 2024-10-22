@@ -1,0 +1,16 @@
+version: 0.2
+
+phases:
+  install:
+    commands:
+      - echo "Installing dependencies..."
+      - export NODE_OPTIONS="--max-old-space-size=4096 --trace-warnings --max-http-header-size=81920"
+      - npm install
+  build:
+    commands:
+      - echo "Build phase started"
+      - npm run build
+
+artifacts:
+  files:
+    - '**/*'
