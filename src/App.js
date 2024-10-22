@@ -2,7 +2,7 @@ import React from 'react';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import SignUp from './components/SignUp';
 import SignIn from './components/SignIn';
-import ImageUploader from './components/ImageUploader'; // Assuming ImageUploader is inside components
+import ImageUploader from './components/ImageUploader'; // Assuming ImageUploadev inside components
 
 function App() {
   return (
@@ -18,4 +18,4 @@ function App() {
 }
 
 export default App;
-
+//let me try to do something over here
